@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
+  <url>
+    <loc>https://portfolio.matoshreecollection.in/</loc>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/swaraj-fugare-official-portrait-2026.jpg</image:loc>
+      <image:title>Swaraj Fugare official portrait</image:title>
+      <image:caption>Swaraj Fugare, Owner of Matoshree Collection, official portfolio portrait.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/swaraj-fugare-profile.jpg</image:loc>
+      <image:title>Swaraj Fugare profile image</image:title>
+      <image:caption>Square profile image for Swaraj Fugare portfolio and image indexing.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/logo-mark-card.png</image:loc>
+      <image:title>SF logo</image:title>
+      <image:caption>Official SF logo used in the portfolio navigation.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/matoshree-collection-logo.png</image:loc>
+      <image:title>Matoshree Collection logo</image:title>
+      <image:caption>Matoshree Collection business logo connected with Swaraj Fugare.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://portfolio.matoshreecollection.in/about/</loc>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/swaraj-fugare-official-portrait-2026.jpg</image:loc>
+      <image:title>Swaraj Fugare official portrait</image:title>
+      <image:caption>Official portrait on the biography page for Swaraj Fugare.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/nsui-vice-president-appointment-letter-2026.jpg</image:loc>
+      <image:title>Swaraj Fugare leadership appointment letter</image:title>
+      <image:caption>Appointment letter highlighting Swaraj Fugare in a leadership role.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://portfolio.matoshreecollection.in/resume/</loc>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/swaraj-fugare-resume-preview.jpg</image:loc>
+      <image:title>Swaraj Fugare resume preview</image:title>
+      <image:caption>Resume preview image for Swaraj Fugare.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://portfolio.matoshreecollection.in/matoshree-collection/</loc>
+    <image:image>
+      <image:loc>https://portfolio.matoshreecollection.in/assets/matoshree-collection-logo.png</image:loc>
+      <image:title>Matoshree Collection logo</image:title>
+      <image:caption>Matoshree Collection logo on the business page by Swaraj Fugare.</image:caption>
+    </image:image>
+  </url>
+</urlset>

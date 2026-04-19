@@ -1,21 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
   <title id="title">Swaraj Fugare logo</title>
-  <desc id="desc">Premium SF monogram logo for Swaraj Fugare</desc>
+  <desc id="desc">Minimal SF monogram logo for Swaraj Fugare</desc>
   <defs>
-    <linearGradient id="bg" x1="70" y1="64" x2="442" y2="448" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panel" x1="18" y1="14" x2="108" y2="114" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f766e"/>
-      <stop offset="0.52" stop-color="#12324a"/>
-      <stop offset="1" stop-color="#d6a84f"/>
-    </linearGradient>
-    <linearGradient id="line" x1="128" y1="122" x2="388" y2="392" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#d7f8f2"/>
+      <stop offset="0.58" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#c98b2a"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="112" fill="#0b1119"/>
-  <rect x="36" y="36" width="440" height="440" rx="96" fill="url(#bg)"/>
-  <path d="M147 332c23 24 58 38 101 38 61 0 102-27 102-72 0-39-29-57-87-69l-34-7c-31-7-44-15-44-32 0-19 18-31 47-31 31 0 55 10 74 28l32-44c-25-24-60-37-105-37-59 0-99 31-99 78 0 39 27 60 82 72l35 8c32 7 45 15 45 31 0 19-20 30-50 30-34 0-61-12-81-34l-18 41Z" fill="url(#line)"/>
-  <path d="M352 150h-96v212h56v-75h89v-50h-89v-37h104v-50h-64Z" fill="#ffffff" opacity=".92"/>
-  <path d="M92 378h328" stroke="#ffffff" stroke-width="18" stroke-linecap="round" opacity=".82"/>
-  <path d="M92 408h190" stroke="#f7d06f" stroke-width="18" stroke-linecap="round"/>
+  <rect width="128" height="128" rx="24" fill="#0f172a"/>
+  <rect x="10" y="10" width="108" height="108" rx="18" fill="url(#panel)"/>
+  <rect x="18" y="18" width="92" height="92" rx="14" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.22"/>
+  <path d="M32 92h40" stroke="#f8fafc" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <text x="64" y="76" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#ffffff">SF</text>
 </svg>

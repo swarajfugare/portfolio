@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://swarajfugare.github.io/Portfolio/sitemap.xml
+Sitemap: https://portfolio.matoshreecollection.in/sitemap.xml
+Sitemap: https://portfolio.matoshreecollection.in/image-sitemap.xml

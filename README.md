@@ -20,7 +20,12 @@ Portfolio/
 ├── assets/
 │   ├── Swaraj-Fugare-Resume.pdf
 │   ├── favicon.svg
+│   ├── favicon.png
+│   ├── apple-touch-icon.png
 │   ├── swaraj-fugare-logo.svg
+│   ├── swaraj-fugare-logo-brand.png
+│   ├── swaraj-fugare-logo-mark.png
+│   ├── swaraj-fugare-social-banner.png
 │   ├── swaraj-fugare-official-portrait-2026.jpg
 │   ├── nsui-vice-president-appointment-letter-2026.jpg
 │   ├── swaraj-fugare-github-avatar.jpg
@@ -28,7 +33,9 @@ Portfolio/
 │   ├── swaraj-fugare-resume-preview.jpg
 │   └── matoshree-collection-logo.png
 ├── style.css
+├── style.min.css
 ├── script.js
+├── script.min.js
 ├── robots.txt
 └── sitemap.xml
 ```
@@ -47,27 +54,24 @@ Portfolio/
 - Resume PDF: education, phone, email, address, skills, NSUI experience, objective
 - Uploaded NSUI appointment letter: Vice President, Solapur District NSUI, dated 15 April 2026
 - Uploaded portrait: main profile image on the home and about pages
+- Uploaded SF logo: refined into transparent brand assets, favicon, and the social share banner
 - GitHub API: profile facts and public repositories for `swarajfugare`
 - Instagram Open Graph metadata: profile image and public count signals
 - Matoshree Collection website metadata: business description, logo, services, organization schema facts
 - LinkedIn and X: official profile links
 
-## Deploy on GitHub Pages
+## Preview locally
 
-1. Create a GitHub repository named `Portfolio`.
-2. Upload all files from this folder to the repository root.
-3. Open repository Settings, then Pages.
-4. Choose `Deploy from a branch`, select the `main` branch and `/root`.
-5. The expected URL is `https://swarajfugare.github.io/Portfolio/`.
-6. Submit `https://swarajfugare.github.io/Portfolio/sitemap.xml` in Google Search Console.
+1. Run `python3 -m http.server 4173` from the project root.
+2. Open `http://127.0.0.1:4173/`.
+3. Use a local server because the site now uses root-relative links for the custom domain structure.
 
-## Deploy on Netlify
+## Deploy on custom domain
 
-1. Go to Netlify and choose `Add new site`.
-2. Select `Deploy manually`.
-3. Drag the full `Portfolio` folder into Netlify.
-4. After deployment, update the canonical URLs, Open Graph URLs, schema URLs, `robots.txt`, and `sitemap.xml` from `https://swarajfugare.github.io/Portfolio/` to the final Netlify or custom-domain URL.
-5. Submit the deployed sitemap in Google Search Console.
+1. Upload the full project to the hosting platform serving `https://portfolio.matoshreecollection.in`.
+2. Keep the root structure exactly as provided so `/about/`, `/projects/`, `/resume/`, `/contact/`, and `/matoshree-collection/` resolve correctly.
+3. Submit `https://portfolio.matoshreecollection.in/sitemap.xml` in Google Search Console.
+4. Verify the custom domain serves the generated `robots.txt`, `sitemap.xml`, `style.min.css`, and `script.min.js` files.
 
 ## Notes Before Launch
 
