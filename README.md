@@ -1,81 +1,165 @@
-# Swaraj Fugare Portfolio
+<!-- ================= HERO SECTION ================= -->
 
-Premium multi-page static portfolio website for Swaraj Vijay Fugare.
+<h1 align="center">🚀 Swaraj Fugare</h1>
 
-## Structure
+<p align="center">
+  <b>Engineer • Entrepreneur • Owner of Matoshree Collection</b>
+</p>
 
-```text
+<p align="center">
+  <img src="assets/swaraj-fugare-social-banner.png" width="100%" alt="Swaraj Fugare Banner"/>
+</p>
+
+<p align="center">
+  🌐 <a href="https://portfolio.matoshreecollection.in"><b>Visit Portfolio</b></a> • 
+  🛍️ <a href="https://matoshreecollection.in"><b>Matoshree Collection</b></a>
+</p>
+
+---
+
+<!-- ================= IDENTITY ================= -->
+
+## 🧠 Digital Identity
+
+```diff
++ Name: Swaraj Fugare
++ Role: Engineer & Entrepreneur
++ Position: Owner of Matoshree Collection
++ Focus: Personal Branding • Business Growth • Digital Presence
+````
+
+> This repository is not just code — it’s a **search identity system** built to dominate results for
+> **“Swaraj Fugare”**, **“Fugare”**, and **“Matoshree Collection”**.
+
+---
+
+<!-- ================= CORE PILLARS ================= -->
+
+## 🧩 Core System
+
+<table align="center">
+<tr>
+<td align="center"><b>🧠 Engineer</b><br/>Structured thinking<br/>Problem solving</td>
+<td align="center"><b>🚀 Entrepreneur</b><br/>Execution mindset<br/>Growth driven</td>
+<td align="center"><b>🏢 Owner</b><br/>Matoshree Collection<br/>Business identity</td>
+<td align="center"><b>🌐 Digital Brand</b><br/>Search visibility<br/>Online authority</td>
+</tr>
+</table>
+
+---
+
+<!-- ================= LIVE SYSTEM ================= -->
+
+## 🌍 Live Experience
+
+<p align="center">
+  <a href="https://portfolio.matoshreecollection.in">
+    <img src="https://img.shields.io/badge/VIEW-LIVE%20PORTFOLIO-0f766e?style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+This website is designed as the **official source of truth** for Swaraj Fugare across the internet.
+</p>
+
+---
+
+<!-- ================= STRUCTURE ================= -->
+
+## 🏗️ Architecture
+
+```bash
 Portfolio/
-├── index.html
-├── about/
-│   └── index.html
-├── resume/
-│   └── index.html
-├── projects/
-│   └── index.html
-├── matoshree-collection/
-│   └── index.html
-├── contact/
-│   └── index.html
-├── assets/
-│   ├── Swaraj-Fugare-Resume.pdf
-│   ├── favicon.svg
-│   ├── favicon.png
-│   ├── apple-touch-icon.png
-│   ├── swaraj-fugare-logo.svg
-│   ├── swaraj-fugare-logo-brand.png
-│   ├── swaraj-fugare-logo-mark.png
-│   ├── swaraj-fugare-social-banner.png
-│   ├── swaraj-fugare-official-portrait-2026.jpg
-│   ├── nsui-vice-president-appointment-letter-2026.jpg
-│   ├── swaraj-fugare-github-avatar.jpg
-│   ├── swaraj-fugare-profile.jpg
-│   ├── swaraj-fugare-resume-preview.jpg
-│   └── matoshree-collection-logo.png
-├── style.css
-├── style.min.css
-├── script.js
-├── script.min.js
-├── robots.txt
-└── sitemap.xml
+├── Identity Layer → Personal Branding (About, Resume)
+├── Execution Layer → Projects & GitHub Integration
+├── Business Layer → Matoshree Collection
+├── Discovery Layer → SEO (Schema, Sitemap, Metadata)
+└── Contact Layer → Direct Communication Channels
 ```
 
-## Pages
+---
 
-- Home: personal brand overview for Swaraj Fugare
-- About: biography, education, leadership, business, and skill story
-- Resume: structured resume plus downloadable PDF
-- Projects: dynamic GitHub API integration with fallback public repository data
-- Business: Matoshree Collection brand page
-- Contact: email form, WhatsApp, social links, and business links
+<!-- ================= SEO ENGINE ================= -->
 
-## Data Sources Used
+## 📈 SEO Engine (Built for Google)
 
-- Resume PDF: education, phone, email, address, skills, NSUI experience, objective
-- Uploaded NSUI appointment letter: Vice President, Solapur District NSUI, dated 15 April 2026
-- Uploaded portrait: main profile image on the home and about pages
-- Uploaded SF logo: refined into transparent brand assets, favicon, and the social share banner
-- GitHub API: profile facts and public repositories for `swarajfugare`
-- Instagram Open Graph metadata: profile image and public count signals
-- Matoshree Collection website metadata: business description, logo, services, organization schema facts
-- LinkedIn and X: official profile links
+```yaml
+Primary Keywords:
+  - Swaraj Fugare
+  - Owner Of Matoshree Collection
+  - Fugare
+  - Swaraj
+  - Matoshree Collection
 
-## Preview locally
+Optimization:
+  - Structured Data (Person + Organization)
+  - Sitemap.xml + Robots.txt
+  - Internal Linking Strategy
+  - Open Graph + Social Preview
+  - Image SEO (Google Images Ready)
+```
 
-1. Run `python3 -m http.server 4173` from the project root.
-2. Open `http://127.0.0.1:4173/`.
-3. Use a local server because the site now uses root-relative links for the custom domain structure.
+> This project is engineered to **rank, not just display**.
 
-## Deploy on custom domain
+---
 
-1. Upload the full project to the hosting platform serving `https://portfolio.matoshreecollection.in`.
-2. Keep the root structure exactly as provided so `/about/`, `/projects/`, `/resume/`, `/contact/`, and `/matoshree-collection/` resolve correctly.
-3. Submit `https://portfolio.matoshreecollection.in/sitemap.xml` in Google Search Console.
-4. Verify the custom domain serves the generated `robots.txt`, `sitemap.xml`, `style.min.css`, and `script.min.js` files.
+<!-- ================= BUSINESS ================= -->
 
-## Notes Before Launch
+## 🏢 Matoshree Collection
 
-- The contact form is Netlify Forms-ready. On Netlify, submissions appear in Netlify Dashboard > Site > Forms > contact.
-- On GitHub Pages, the contact form falls back to opening the visitor's email app using `mailto:` because GitHub Pages does not store form submissions.
-- The WhatsApp button uses the phone number extracted from the resume.
-- GitHub projects load live in the browser and show fallback project cards if the API is blocked.
+<p align="center">
+  <img src="assets/matoshree-collection-logo.png" width="120"/>
+</p>
+
+<p align="center">
+A growing platform focused on <b>learning, earning, and digital growth</b>.
+</p>
+
+<p align="center">
+  <a href="https://matoshreecollection.in">Explore Business →</a>
+</p>
+
+---
+
+<!-- ================= TECH STACK ================= -->
+
+## ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js" />
+</p>
+
+<p align="center">
+HTML • CSS • JavaScript • SEO • GitHub API
+</p>
+
+---
+
+<!-- ================= CONNECTION ================= -->
+
+## 🔗 Network
+
+<p align="center">
+  <a href="https://github.com/swarajfugare">GitHub</a> •
+  <a href="https://www.instagram.com/swaraj.fugare_23">Instagram</a> •
+  <a href="https://www.linkedin.com/in/swaraj-fugare-87a934394/">LinkedIn</a> •
+  <a href="https://x.com/fugare6639">X</a>
+</p>
+
+---
+
+<!-- ================= VISION ================= -->
+
+## ⚡ Vision
+
+> Build a powerful personal brand where
+> **name = identity = business = search result**
+
+---
+
+<!-- ================= FOOTER ================= -->
+
+<p align="center">
+  👑 <b>Swaraj Fugare</b><br/>
+  Owner of Matoshree Collection
+</p>
